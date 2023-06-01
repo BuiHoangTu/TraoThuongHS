@@ -1,6 +1,8 @@
 package cnpm.traothuonghs.services;
 
 import cnpm.traothuonghs.models.HocSinh;
+import cnpm.traothuonghs.services.local.HocSinhService;
+
 import org.junit.jupiter.api.Test;
 
 import java.sql.SQLException;

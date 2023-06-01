@@ -1,13 +1,13 @@
 package cnpm.traothuonghs.models;
 
-import cnpm.traothuonghs.services.Database;
-import cnpm.traothuonghs.services.TinhThuongService;
-
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+
+import cnpm.traothuonghs.services.local.Database;
+import cnpm.traothuonghs.services.local.TinhThuongService;
 
 public class HocSinh {
 	public static final String[] tenCacTruongHoc = {"Tiểu Học Tây Sơn", "Tiểu Học Thanh Lương", "THCS Đoàn Kết", "THCS Hà Huy Tập", "THPT Thăng Long", "THPT Trần Nhân Tông"}; // TODO: 27/01/2023 thêm tên các trường

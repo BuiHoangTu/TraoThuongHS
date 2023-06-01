@@ -3,7 +3,7 @@ package cnpm.traothuonghs.controllers.hocsinh;
 import cnpm.traothuonghs.controllers.BaseLeftController;
 import cnpm.traothuonghs.models.HocSinh;
 import cnpm.traothuonghs.models.PhanThuong;
-import cnpm.traothuonghs.services.HocSinhService;
+import cnpm.traothuonghs.services.local.HocSinhService;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

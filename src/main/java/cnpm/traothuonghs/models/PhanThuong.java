@@ -1,12 +1,12 @@
 package cnpm.traothuonghs.models;
 
-import cnpm.traothuonghs.services.Database;
-import cnpm.traothuonghs.services.TinhThuongService;
-
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.time.LocalDate;
+
+import cnpm.traothuonghs.services.local.Database;
+import cnpm.traothuonghs.services.local.TinhThuongService;
 
 public class PhanThuong extends TinhThuongService {
 	private  String idHocSinh;

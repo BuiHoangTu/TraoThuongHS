@@ -1,11 +1,12 @@
 package cnpm.traothuonghs.controllers;
 
-import cnpm.traothuonghs.services.HocSinhService;
-import cnpm.traothuonghs.services.PhanThuongService;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
 import java.sql.SQLException;
+
+import cnpm.traothuonghs.services.local.HocSinhService;
+import cnpm.traothuonghs.services.local.PhanThuongService;
 
 public class TrangChinhController extends BaseLeftController{
     public Label lblHocSinhNum;

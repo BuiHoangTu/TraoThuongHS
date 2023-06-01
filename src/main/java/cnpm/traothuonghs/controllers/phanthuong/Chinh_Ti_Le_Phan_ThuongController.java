@@ -1,7 +1,7 @@
 package cnpm.traothuonghs.controllers.phanthuong;
 
 import cnpm.traothuonghs.controllers.BaseLeftController;
-import cnpm.traothuonghs.services.TinhThuongService;
+import cnpm.traothuonghs.services.local.TinhThuongService;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

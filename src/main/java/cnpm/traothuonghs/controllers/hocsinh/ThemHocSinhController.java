@@ -3,7 +3,7 @@ package cnpm.traothuonghs.controllers.hocsinh;
 import cnpm.traothuonghs.controllers.ChangeSceneControllers;
 import cnpm.traothuonghs.controllers.IFlushableController;
 import cnpm.traothuonghs.models.HocSinh;
-import cnpm.traothuonghs.services.HocSinhService;
+import cnpm.traothuonghs.services.local.HocSinhService;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;

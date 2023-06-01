@@ -4,7 +4,7 @@ import cnpm.traothuonghs.application.TraoThuongHSApplication;
 import cnpm.traothuonghs.controllers.BaseLeftController;
 import cnpm.traothuonghs.records.PhanThuongDot;
 import cnpm.traothuonghs.records.PhanThuongHK;
-import cnpm.traothuonghs.services.PhanThuongService;
+import cnpm.traothuonghs.services.local.PhanThuongService;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;

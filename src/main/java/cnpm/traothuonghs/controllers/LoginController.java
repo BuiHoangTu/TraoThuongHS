@@ -1,7 +1,7 @@
 package cnpm.traothuonghs.controllers;
 
 import cnpm.traothuonghs.application.TraoThuongHSApplication;
-import cnpm.traothuonghs.services.Database;
+import cnpm.traothuonghs.services.local.Database;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

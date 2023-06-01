@@ -1,4 +1,4 @@
-package cnpm.traothuonghs.services;
+package cnpm.traothuonghs.services.local;
 
 import cnpm.traothuonghs.models.PhanThuong;
 import cnpm.traothuonghs.records.PhanThuongDot;

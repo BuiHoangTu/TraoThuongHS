@@ -1,4 +1,4 @@
-package cnpm.traothuonghs.services;
+package cnpm.traothuonghs.services.local;
 
 import java.sql.*;
 
